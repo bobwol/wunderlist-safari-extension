@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>6Wunderkinder</string>
+	<key>Builder Version</key>
+	<string>8536.26.17</string>
+	<key>CFBundleDisplayName</key>
+	<string>Wunderlist</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.wunderkinder.wunderlist</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<real>1048576</real>
+		<key>Global Page</key>
+		<string>app.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>wunderlist_click</string>
+				<key>Identifier</key>
+				<string>wunderlist-toolbar-button</string>
+				<key>Image</key>
+				<string>Icon-small.png</string>
+				<key>Label</key>
+				<string>Wunderlist</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>data/safari/wunderlist-safari.js</string>
+			</array>
+			<key>Start</key>
+			<array>
+				<string>data/safari/wunderlist-safari-port-wrapper.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Wunderlist is the easiest &amp; fastest way to remember websites &amp; links to view later.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://www.6wunderkinder.com</string>
+</dict>
+</plist>
