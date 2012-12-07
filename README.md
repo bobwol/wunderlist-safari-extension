@@ -7,7 +7,7 @@
 * Clone the repository
 * Open Safari and navigate to **Preferences/Advanced** and enable **Show Develop menu in menu bar**
 * Close Preferences and navigate to **Develop/Show Extension Builder**
-* Select **+** at the bottom left, and select **Add Extension** and open %REPOSITORY%/safari/wunderlist.safariextension
+* Select **+** at the bottom left, and select **Add Extension** and open **%REPOSITORY%/safari/wunderlist.safariextension**
 * That's it!
 
 # Credits
